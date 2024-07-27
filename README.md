@@ -16,6 +16,33 @@
 - On accounts table: one to one relationship for each account belonging to one user -> userDetails
 - On users table: Many to one relationship for many accounts belonging to one user -> accounts
 - setup actions
+  Name: hashPassword
+
+  ```type Mutation {
+  hashPassword(password: String!): HashPasswordOutput
+  }
+
+  type HashPasswordOutput {
+  hashedPassword: String!
+  }
+
+  https://ss.backend.mooo.com/hash_passwords
+  ```
+
+  Name: verifyPassword
+
+  ```
+  type Mutation {
+  verifyPassword(
+      plainPassword: String!
+      hashedPassword: String!
+  ): VerifyPasswordOutput
+  }
+
+  type VerifyPasswordOutput {
+  plainPassword: String!
+  }
+  ```
 
 ### Frontend
 
