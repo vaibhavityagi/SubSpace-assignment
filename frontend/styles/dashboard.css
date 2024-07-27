@@ -1,0 +1,18 @@
+.user-card {
+  display: flex;
+  border: red 1px solid;
+  justify-content: space-around;
+  align-items: center;
+  padding: 1em;
+}
+
+.user-img {
+  border-radius: 50%;
+  background-color: slateblue;
+  padding: 1.5em;
+}
+
+#nav-bar {
+  display: flex;
+  justify-content: space-around;
+}

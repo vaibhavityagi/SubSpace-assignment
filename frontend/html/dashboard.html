@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="stylesheet" href="../styles/dashboard.css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Finance App</title>
+  </head>
+  <body>
+    <nav id="nav-bar">
+      <div>WiDe</div>
+      <div id="user-name" class="user-img"></div>
+      <div id="logout">Logout</div>
+    </nav>
+    <div id="balance"></div>
+    <form action="" id="deposit-form" method="POST">
+      <label for="amount">Amount</label>
+      <input type="number" name="amount" id="amount" min="1" required />
+      <button id="deposit-btn">Deposit Money</button>
+      <button id="withdraw-btn">Withdraw Money</button>
+    </form>
+
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+    <script src="../scripts/dashboard.js"></script>
+  </body>
+</html>
