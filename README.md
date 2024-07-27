@@ -52,3 +52,4 @@
 ### Business logic
 
 - Custom business logic is hosted on an E2C instance at: `https://ss.backend.mooo.com`
+- Backend is hosted at: https://github.com/vaibhavityagi/subspace-assignment-backend
